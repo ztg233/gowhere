@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/login.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="loginimages/logo.png" alt=""><span>|</span><div>登录/注册</div>
+        </div>
+        <div class="header-right">适老化及无障碍</div>
+    </header>
+    <section>
+        <div class="section">
+            <div class="section-left">
+                <div class="s-l-header">
+                    <ul id="change">
+                        <li class="fontstyle">
+                            手机号登录/注册
+                        </li>
+                        <li>
+                            密码登录
+                        </li>
+                    </ul>
+                </div>
+            <ul id="list" class="list">
+                <li class="happen">
+                    <p class="text1">新用户验证成功即自动登录</p>
+                    <div class="s-l-section">
+                    <input class="input1" type="text" value="86">
+                    <input class="input2" type="text" placeholder="请输入手机号">
+                    </div>
+                    <div class="s-l-section2">
+                        <input class="input3" type="text" placeholder="验证码"><p>获取验证码</p>
+                    </div>
+                    <p class="text3">获取语音验证码</p>
+                    <div>
+                        <input class="input4" type="button" value="登录/注册">
+                    </div>
+                    <div class="s-l-section3">
+                        <input type="checkbox">
+                        <p>
+                            已阅读并同意 <a href="">《去哪儿用户协议》</a>、<a href="">《隐私政策》</a>
+                        </p>
+                    </div>
+                    <span class="span1">其他登录方式</span>
+                    </li>
+                    <li>
+                        <div class="s-l-section">
+                        <input class="input5" type="text" placeholder="手机号/邮箱/账号">
+                        </div>
+                        <div class="s-l-section2">
+                            <input class="input6" type="password" placeholder="请输入密码">
+                        </div>
+                        <p class="texts">忘记密码</p>
+                        <div>
+                            <input class="input7" type="button" value="登录">
+                        </div>
+                        <div class="s-l-section3">
+                            <input type="checkbox">
+                            <p>
+                                已阅读并同意 <a href="">《去哪儿用户协议》</a>、<a href="">《隐私政策》</a>
+                            </p>
+                        </div>
+                        <span class="span1">其他登录方式</span>
+                    </li>
+            </ul>
+            </div>
+            <div class="section-right">
+                <h4>手机扫码安全登录</h4>
+                <main><img src="loginImages/show.png" alt=""></main>
+                <h5>去哪儿客户端/微信 扫一扫</h5>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="f-footer">
+                <ul>
+                    <li><a href="">关于Qunar.com</a></li><span>|</span>
+                    <li><a href="">业务合作</a></li><span>|</span>
+                    <li><a href="">加入我们</a></li><span>|</span>
+                    <li><a href="">"严重违规失信"专项整治举报</a></li><span>|</span>
+                    <li><a href="">安全中心</a></li><span>|</span>
+                    <li><a href="">星骆驼收益</a></li><span>|</span>
+                    <li><a href="">Aabout Us</a></li>
+                </ul>
+            <p class="text5">Copyright ©2021 Qunar.com京公网安备11010802030542京ICP备05021087号京ICP证060856号营业执照信息(京)-非经营性-2016-0110去哪儿网客服电话95117</p>
+            <p class="text5">违法和不良信息举报电话：010-59606977违法和不良信息举报邮箱：tousu@qunar.com</p>
+            <p>
+                <ul>
+                    <li><img src="images/footer02.png" alt=""></li>
+                    <li><img src="images/footer03.gif" alt=""></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                    <li><div></div></li>
+                </ul>
+            </p>
+        </div>
+    </footer>
+    <script>
+        var change=document.getElementById('change').children
+        var list=document.getElementById('list').children
+        console.log(change.length)
+            change[0].onclick=function(){
+                for(a=0;a<list.length;a++){
+                    list[a].removeAttribute('class')
+                    change[a].removeAttribute('class')
+                    
+                }
+                list[0].setAttribute('class','happen')
+                this.setAttribute('class','fontstyle')
+                this.style.color='black'
+            }
+            change[1].onclick=function(){
+                for(a=0;a<list.length;a++){
+                    list[a].removeAttribute('class')
+                    change[a].removeAttribute('class')
+                    
+                }
+                list[1].setAttribute('class','happen')
+                this.setAttribute('class','fontstyle')
+            }
+    </script>
+</body>
+</html>

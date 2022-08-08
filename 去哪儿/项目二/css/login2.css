@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+}
+header{
+    width: 988px;
+    margin: 0px auto;
+    height: 38px;
+}
+.header-left p{
+    font-size: 12px;
+    line-height: 38px;
+}
+.header-left a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #c00;
+}
+.header-left a:hover{
+    text-decoration: underline;
+    color: rgb(234, 69, 69);
+}
+.header-right a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #666;
+    line-height:38px
+}
+.header-right a:hover{
+    text-decoration: underline;
+    color: #498dd6;
+}
+.header-left{
+    float: left;
+}
+.header-right{
+    float:right;
+    font-size: 12px;
+    color: #ccc;
+}
+
+
+.main-top-left{
+    margin-left: 10px;
+    float: left;
+}
+.main-top-left img{
+    margin: 20px 0px;
+}
+.main-top-right{
+    float: right;
+    margin-top: 47px;
+}
+.main-top-right p{
+    font-size: 12px;
+    color: #666;
+    line-height: 38px;
+}
+.main-top-right a{
+    font-size: 12px;
+    color: #0091d5;
+    line-height: 38px;
+    text-decoration: none;
+}
+.main-top-right a:hover{
+    text-decoration: underline;
+}
+.main-top{
+    margin: 0px auto;
+    width: 988px;
+    height: 85px;
+}
+main{
+    background-color: #86ddfa;
+    /* overflow: hidden; */
+
+}
+.main-big{
+    height: 480px;
+    width: 988px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #7cbabd;
+    /* overflow: hidden; */
+}
+
+.main-left{
+    float: left;
+    height: 480px;
+    width: 660px;
+    background-color: rgb(96, 56, 56);
+}
+.main-right{
+    float: left;
+    height: 480px;
+    width: 328px;
+
+    background-color: #f4f4f4;
+}

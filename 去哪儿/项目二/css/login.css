@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+header{
+    height: 67px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    border-bottom: 1px #00d0d4 solid;
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    width: 126px;
+    height: 36px;
+}
+
+.header-left{
+display: flex;
+align-items: center;
+}
+.header-left span{
+    height: 21px;
+    font-size: 16px;
+    color: #00d0d4;
+    margin: 0px 10px;
+    }
+.header-left div{
+    font-size: 16px;
+    font-weight: 600;
+}
+.header-right{
+    font-size: 16px;
+    color: #333333;
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+}
+.section{
+    width: 768px;
+    margin-top: 164px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../loginImages/backgound.png");
+}
+.section-left{
+    margin-top: 50px;
+    margin-left: 41px;
+}
+.s-l-header{
+    margin-bottom: 35px;
+}
+.s-l-header ul {
+    display: flex;
+}
+.s-l-header ul li {
+    color: #000000;
+    font-size: 16px;
+    margin-right: 40px;
+    line-height: 22px;
+}
+.text1{
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 10px;
+}
+.s-l-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.input1{
+    width: 95px;
+    height: 46px;
+    outline: none;
+    padding: 0px 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: #999999 1px solid;
+}
+.input2{
+    width: 239px;
+    height: 46px;
+    margin-left: 8px;
+    outline: none;
+    padding: 0px 12px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: #999999 1px solid;
+}
+.s-l-section2{
+    display: flex;
+    align-items: center;
+}
+.input3{
+    width: 277px;
+    height: 46px;
+    outline: none;
+    padding: 0px 12px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: #999999 1px solid;
+}
+.s-l-section2 p{
+    font-size: 13px;
+    margin-left: 15px;
+    color: #333333;
+}
+.text3{
+    text-align: right;
+    font-size: 13px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.input4{
+    width: 100%;
+    height: 48px;
+    margin-top: 16px;
+    outline: none;
+    padding: 0px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #00d0d4;
+    border:none;
+    color: white;
+}
+.s-l-section3{
+    margin-top: 14px;
+    display: flex;
+}
+.s-l-section3 p{
+    font-size: 12px;
+    color: #999999;
+}
+.s-l-section3 p a{
+    font-size: 12px;
+    color: #333333;
+    text-decoration: none;
+}
+.span1{
+    display: block;
+    font-size: 12px;
+    color: #999999;
+    margin-top: 50px;
+}
+.section-right{
+    margin-top: 97px;
+    margin-left: 78px;
+}
+.section-right h4{
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 28px;
+}
+.section-right h5{
+    margin-top: 16px;
+    font-size: 12px;
+    color: #333333;
+    text-align: center;
+}
+footer{
+    width: 979px;
+    margin: 0px auto;
+    margin-top: 184px;
+}
+.f-footer{
+    width: 100%;
+    height: 200px;
+    /* background-color: #333333; */
+}
+.f-footer  ul{
+    width: 979px;
+    display: flex;
+    justify-content:center ;
+    margin-bottom: 8px;
+}
+.f-footer ul li{
+    display: inline;
+}
+.f-footer ul li a{
+    color: #999999;
+    text-decoration: none;
+}
+.f-footer span{
+    margin: 0px 8px;
+    color: #999999;
+}
+.text5{
+    text-align: center;
+    font-size: 12px;
+    line-height: 22px;
+    color: #999999;
+}
+.f-footer img{
+    width: 60px;
+    height: 30px;
+    margin-right: 5px;
+}
+.list{
+    width: 394px;
+    height: 325px;
+    overflow: hidden;
+    position: relative;
+}
+.list li{
+    position: absolute;
+    left: 0px;
+    top: 0px; 
+    display: none;
+}
+.list .happen{
+    display: inline-block;
+    width: 100%;
+}
+.fontstyle{
+    font-weight: 600;
+}
+.input5{
+    width: 100%;
+    height: 48px;
+    margin-top: 16px;
+    outline: none;
+    padding: 0px 12px;
+    font-size: 12px;
+    border-radius: 8px;
+    border:1px solid #999999;
+    color: #999999;
+}.input6{
+    width: 100%;
+    height: 48px;
+    margin-top: 16px;
+    outline: none;
+    padding: 0px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    border:1px solid #999999;
+    color: #999999;
+}
+.input7{
+    width: 100%;
+    height: 48px;
+    margin-top: 16px;
+    outline: none;
+    padding: 0px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #00d0d4;
+    border:none;
+    color: white;
+}
+.texts{
+    text-align: right;
+    font-size: 12px;
+    color: #999999;
+    margin-top: 16px;
+}
